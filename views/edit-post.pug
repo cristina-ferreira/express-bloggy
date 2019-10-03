@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  p.subtitle Edit Post
+  form(method='POST' action=`/post/${_id}/save`)
+    h3.label title
+      div
+        input(type="text" name="title" value=`${title}`)
+    h3.label content
+      div
+        textarea(name="content", cols="30", rows="10") #{content}
+    button(type='submit') Save

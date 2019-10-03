@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+ }
+
+li {
+   list-style: none;
+   background-color: #f0f5f5;
+ }
+
+ .subtitle {
+   font-size: 14px;
+ }
+
+ .label {
+   color: gray;
+ }
+
+ .content {
+   color: black;
+   margin-left: 10px;
+ }
+
+ .title {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

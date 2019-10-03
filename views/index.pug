@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Bloggy 
+  a.subtitle(href='/post/new') New Post
+  
+  ul
+    each post in posts
+      li
+        h3.label title:
+          a(href=`/post/${post._id}`)
+            span.title= post.title
+        //- p= post.createdAt
+        h3.label content:
+          span.content= post.content

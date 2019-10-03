@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  //- p= createdAt
+  p= content
+  a(href=`/post/${_id}/edit`)
+    button(type='button') Edit
+  a(href=`/post/${_id}/delete`)
+    button(type='button') Delete
